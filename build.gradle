@@ -19,6 +19,9 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/org.apache.httpcomponents/httpasyncclient
+    compile group: 'org.apache.httpcomponents', name: 'httpasyncclient', version: '4.1.4'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version: '4.5.9'
     implementation 'org.springframework.boot:spring-boot-starter-actuator'
     implementation 'org.springframework.boot:spring-boot-starter-web'
     compileOnly 'org.projectlombok:lombok'
